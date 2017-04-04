@@ -1,0 +1,8 @@
+applications:
+- name: my-sample-app
+  instances: 2
+  memory: 1024M
+  disk_quota: 1024M
+  routes:
+  - route: my-sample-app.cfapps.io
+  stack: cflinuxfs2

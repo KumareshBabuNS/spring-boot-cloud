@@ -1,0 +1,8 @@
+applications:
+- name: my-sample-app
+  instances: 2
+  memory: 512M
+  disk_quota: 512M
+  routes:
+  - route: my-sample-app.local.pcfdev.io
+  stack: cflinuxfs2
